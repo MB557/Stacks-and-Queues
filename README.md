@@ -25,7 +25,7 @@ stack overflow <br />
 2 <br />
 1 <br />
 stack underflow <br />
-
+<br />
 ## Stacks using Linked Lists <br />
 
 Same as question 1 with the change that the implementation should be by using a linked list instead of an array. There will be no size specified in the inputs.
@@ -44,7 +44,7 @@ __Sample Output__: <br />
 3 <br />
 2 <br />
 1 <br />
-
+<br />
 ## Queues using arrays
 
 Same as question 1 with the term stack replaced by a queue
@@ -64,7 +64,7 @@ queue overflow <br />
 1 <br /> 
 2 <br />
 queue underflow <br />
-
+<br />
 ## Queues using Linked Lists
 
 Same as question 2 with the change that the implementation should be by using a linked list instead of an array. There will be no size specified in the inputs.
