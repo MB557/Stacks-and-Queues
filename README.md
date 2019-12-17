@@ -8,78 +8,79 @@ __Input Format__: The first input is the number of test cases. Thereafter each t
 
 An attempt to add an element in an already full stack gives a “stack overflow” error printed on the screen. An attempt to pop or access an element in an already empty stack gives a “stack underflow” error printed on the screen.
 
-__Output Format__: As below
+__Output Format__: As below <br />
 
-__Sample Input__:
-1
-6 2
-push 1
-push 2
-push 3
-pop
-pop
-top
+__Sample Input__: <br />
+1 <br />
+6 2 <br />
+push 1 <br />
+push 2 <br />
+push 3 <br />
+pop <br />
+pop <br />
+top <br />
 
-__Sample Output__:
-stack overflow
-2
-1
-stack underflow
+__Sample Output__: <br />
+stack overflow <br />
+2 <br />
+1 <br />
+stack underflow <br />
 
-## Stacks using Linked Lists
+## Stacks using Linked Lists <br />
 
 Same as question 1 with the change that the implementation should be by using a linked list instead of an array. There will be no size specified in the inputs.
 
-__Sample Input__:
-1
-6
-push 1
-push 2
-push 3
-pop
-pop
-top
+__Sample Input__: <br />
+1 <br />
+6 <br />
+push 1 <br />
+push 2 <br />
+push 3 <br />
+pop <br />
+pop <br />
+top <br />
 
-__Sample Output__:
-3
-2
-1
+__Sample Output__: <br />
+3 <br />
+2 <br />
+1 <br />
 
 ## Queues using arrays
 
 Same as question 1 with the term stack replaced by a queue
 
-__Sample Input__:
-1
-6 2
-enqueue 1
-enqueue 2
-enqueue 3
-dequeue
-dequeue
-front
+__Sample Input__: <br />
+1 <br />
+6 2 <br />
+enqueue 1 <br /> 
+enqueue 2 <br />
+enqueue 3 <br />
+dequeue <br />
+dequeue <br />
+front <br />
 
 __Sample Output__:
-queue overflow
-1
-2
-queue underflow
+queue overflow <br />
+1 <br /> 
+2 <br />
+queue underflow <br />
 
 ## Queues using Linked Lists
 
 Same as question 2 with the change that the implementation should be by using a linked list instead of an array. There will be no size specified in the inputs.
 
-__Sample Input__:
-1
-6
-enqueue 1
-enqueue 2
-enqueue 3
-dequeue
-dequeue
-front
+__Sample Input__: <br />
+1 <br />
+6 <br />
+enqueue 1 <br />
+enqueue 2 <br />
+enqueue 3 <br />
+dequeue <br />
+dequeue <br />
+front <br />
 
-__Sample Output__:
-1
-2
-3
+__Sample Output__: <br />
+1 <br />
+2 <br />
+3 <br />
+ 
